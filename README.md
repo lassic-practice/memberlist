@@ -4,13 +4,13 @@
 
 ## 1. Fork する
 
-GithubでForkしたいプロジェクトまで行って、右上にあるForkボタンを押します。今回、 [https://github.com/borderhub/demo.git](https://github.com/borderhub/demo.git) をForkします、私のGithubアカウントshirabelass1001上では [https://github.com/shirabelass1001/demo.git](https://github.com/shirabelass1001/demo.git)  というリポジトリが作成されます。
+GithubでForkしたいプロジェクトまで行って、右上にあるForkボタンを押します。今回、 [https://github.com/shirabelass1001/memberlist.git](https://github.com/shirabelass1001/memberlist.git) をForkします。
 
 ## 2. 自分のPCにcloneする
 
 ターミナルでcloneしたいフォルダまで行って実行（そのフォルダ内にdemoという名前のフォルダが作成されます）
 
-`$ git clone  https://github.com/your_name/demo.git`
+`$ git clone  https://github.com/your_name/memberlist.git`
 
 ## 3. branchを作る（新規ブランチ作成とそのブランチへの切りかえ）
 
@@ -34,11 +34,11 @@ GithubでForkしたいプロジェクトまで行って、右上にあるForkボ
 
 ## 7. upstream（Fork元リポジトリ）の設定
 
-Forkした自分のリポジトリ (https://github.com/your_name/demo.git) は、Fork元のリポジトリ (https://github.com/borderhub/demo.git) の変更内容を自動更新しません。なので、Fork元のリポジトリの最新情報を自分のリポジトリに反映させる必要があります。
+Forkした自分のリポジトリ (https://github.com/your_name/memberlist.git) は、Fork元のリポジトリ (https://github.com/shirabelass1001/memberlist.git) の変更内容を自動更新しません。なので、Fork元のリポジトリの最新情報を自分のリポジトリに反映させる必要があります。
 
 ここで、Forkした自分のリポジトリには、大抵デフォルト名としてoriginという名前がついています。新しくFork元のリポジトリにupstreamという名前をつけて追加しましょう。
 
-`$ git remote add upstream  https://github.com/borderhub/demo.git`
+`$ git remote add upstream  https://github.com/shirabelass1001/memberlist.git`
 
 ## 8. Fork元リポジトリの最新を取得しlocalのmasterを更新
 
@@ -62,4 +62,4 @@ Forkした自分のリポジトリ (https://github.com/your_name/demo.git) は�
 
 ## 11. Pull Requestを作成
 
-GithubでForkした自分のリポジトリ [https://github.com/your_name/demo.git](https://github.com/your_name/demo.git) に行き、左側にあるボタンよりbranchを[your_branch_name]に切り替えます。右上にあるPull Requestボタンを押して、Pull Requestを送信します。
+GithubでForkした自分のリポジトリ [https://github.com/your_name/memberlist.git](https://github.com/your_name/memberlist.git) に行き、左側にあるボタンよりbranchを[your_branch_name]に切り替えます。右上にあるPull Requestボタンを押して、Pull Requestを送信します。
