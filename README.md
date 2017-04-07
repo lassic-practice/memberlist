@@ -10,13 +10,13 @@ GithubでForkしたいプロジェクトまで行って、右上にあるForkボ
 
 ## 2. 自分のPCにcloneする
 
-ターミナルでcloneしたいフォルダまで行って実行（そのフォルダ内にdemoという名前のフォルダが作成されます）
+ターミナルでcloneしたいフォルダまで行って実行（そのフォルダ内にmemberlistという名前のフォルダが作成されます）
 
 `$ git clone  https://github.com/your_name/memberlist.git`
 
 ## 3. branchを作る（新規ブランチ作成とそのブランチへの切りかえ）
 
-`$ cd demo`
+`$ cd memberlist`
 
 `$ git checkout -b [your_branch_name]`
 
