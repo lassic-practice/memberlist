@@ -27,15 +27,14 @@ ex) gensaku shirabe or 調 原作
 
 ## 5. commit する
 
-新規に作成したファイルの場合はgit addするのを忘れずに
+※git addするのを忘れずに
+`$ git add memberlist.txt`
 
 `$ git commit -am '名前を追加'`
 
 ## 6. pushする
 
 `$ git push origin [your_branch_name]`
-
-4-6を繰り返す
 
 ## 7. upstream（Fork元リポジトリ）の設定
 
