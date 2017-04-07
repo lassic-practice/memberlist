@@ -20,6 +20,9 @@ GithubでForkしたいプロジェクトまで行って、右上にあるForkボ
 
 ## 4. ファイルを編集する
 
+memberlist.txtに自分の名前を追加してください
+ex) gensaku shirabe or 調 原作
+
 ## 5. commit する
 
 新規に作成したファイルの場合はgit addするのを忘れずに
