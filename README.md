@@ -62,4 +62,4 @@ Forkした自分のリポジトリ (https://github.com/your_name/memberlist.git)
 
 ## 11. Pull Requestを作成
 
-GithubでForkした自分のリポジトリ [https://github.com/your_name/memberlist.git](https://github.com/your_name/memberlist.git) に行き、左側にあるボタンよりbranchを[your_branch_name]に切り替えます。右上にあるPull Requestボタンを押して、Pull Requestを送信します。
+GithubでForkした自分のリポジトリ [https://github.com/your_name/memberlist.git](https://github.com/your_name/memberlist.git) に行き、左側にあるボタンよりbranchを[your_branch_name]に切り替えます。右上にある「New Pull Request」もしくは「Pull Request」ボタンを押して、Pull Requestを送信します。※今回はbase forkをmasterにして送信ください。
